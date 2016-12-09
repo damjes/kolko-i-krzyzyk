@@ -2,7 +2,7 @@ require 'gosu'
 
 class GameWindow < Gosu::Window
 	def initialize
-		super 640, 480
+		super 800, 600
 		self.caption = "Kółko i krzyżyk"
 
 		@x = Gosu::Image.new "grafiki/x.png"
